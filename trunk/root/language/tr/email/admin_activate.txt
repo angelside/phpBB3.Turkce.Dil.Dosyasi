@@ -1,0 +1,8 @@
+Subject: {SITENAME} - panoya dahil olmak isteyen bir üye var
+
+"{USERNAME}" kullanıcı adıyla panoya dahil olmak isteyen yeni bir üyelik başvurusu, veya hesabı pasif olmuş bir üye var. Başvuru hakkında işlem yapmak için aşağıdaki bağlantıları kullanabilirsiniz.
+
+Başvuru bilgileri: {U_USER_DETAILS}
+Başvuru onayı: {U_ACTIVATE}
+
+{EMAIL_SIG}

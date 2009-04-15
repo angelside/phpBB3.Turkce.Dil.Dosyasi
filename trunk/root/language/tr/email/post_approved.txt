@@ -1,0 +1,10 @@
+Subject: {SITENAME} - "{POST_SUBJECT}" başlıklı iletiniz onaylandı
+
+Sayın {USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosunda yer alan "{POST_SUBJECT}" başlıklı iletinizin bir yetkili tarafından onaylandığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+
+İletiniz: {U_VIEW_POST}
+İletinizin yer aldığı konu: {U_VIEW_TOPIC}
+
+{EMAIL_SIG}

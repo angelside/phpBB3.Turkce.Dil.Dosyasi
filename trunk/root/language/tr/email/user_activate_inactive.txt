@@ -1,0 +1,9 @@
+Subject: {SITENAME} - üyeliğiniz geçici olarak kullanım dışı
+
+Sayın {USERNAME},
+
+Üyelik bilgilerinizde gerçekleştirdiğiniz değişikliklerin güncellenebilmesi ve üyeliğinizin yeniden kullanılabilir hale gelmesi için pano yöneticisinin onayı gerekmektedir.
+
+Bu onay en kısa sürede gerçekleştirilecek ve e-posta ile bilgilendirileceksiniz.
+
+{EMAIL_SIG}

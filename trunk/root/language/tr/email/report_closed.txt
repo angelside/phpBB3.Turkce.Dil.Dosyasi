@@ -1,0 +1,9 @@
+Subject: {SITENAME} - içerik raporunuz değerlendirildi ve kapatıldı
+
+Sayın {USERNAME},
+
+{SITENAME} mesaj panosunda yer alan "{TOPIC_TITLE}" konusundaki "{POST_SUBJECT}" iletisinin içeriğini pano yönetimine rapor etmiştiniz. İsteğiniz üzerine ileti bir yetkili tarafından değerlendirilmiş ve gereken yapılarak raporunuz kapatılmıştır.
+
+Rapor değerlendirme işlemi hakkında sorularınızı, düşüncelerinizi raporu kapatan {CLOSER_NAME} isimli yetkiliye özel mesaj yazarak iletebilirsiniz.
+
+{EMAIL_SIG}

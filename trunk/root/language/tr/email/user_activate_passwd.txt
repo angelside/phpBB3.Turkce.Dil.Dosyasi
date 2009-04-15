@@ -1,0 +1,14 @@
+Subject: {SITENAME} - üyelik hesabınız için yeni parola talebi
+
+Sayın {USERNAME},
+
+{SITENAME} mesaj panosunda bulunan hesabınız için yeni bir parola talebinde bulunuldu. Eğer bu talepte bulunan kişi sizseniz, bu durumda üyeliğinizi kullanılabilir hale getirmek için aşağıdaki bilgilerden yararlanmalı ve üyelik aktivasyonunu gerçekleştirmelisiniz.
+
+Üyelik aktivasyonu: {U_ACTIVATE}
+Yeni şifreniz: {PASSWORD}
+
+Eğer siz böyle bir talepte bulunmadıysanız, lütfen bu bildirimi dikkate almayın. Eğer buna benzer e-postalar almaya devam ederseniz lütfen pano yöneticisi ile irtibata geçin. Zira başka birisi sizin hesabınız için şifre talebinde bulunuyor demektir ve pano yöneticisinin konuyu incelemesi yararlı olabilir.
+
+Unutmayın! Şifrenizi ve diğer üyelik bilgilerinizi (panomuza çevrimiçi olup) kullanıcı paneline girerek dilediğiniz zaman değiştirebilirsiniz.
+
+{EMAIL_SIG}

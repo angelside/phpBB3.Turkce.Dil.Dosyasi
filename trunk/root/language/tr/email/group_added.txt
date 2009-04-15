@@ -1,0 +1,8 @@
+Subject: {SITENAME} - "{GROUP_NAME}" grubuna dahil edildiniz
+
+Bu e-posta, {SITENAME} mesaj panosunda yer alan bir gruba dahil edildiğinizi haber vermek amacıyla sistem tarafından otomatik olarak gönderilmiştir.
+
+Dahil edildiğiniz grup: {GROUP_NAME}
+Grup bilgileri: {U_GROUP}
+
+{EMAIL_SIG}

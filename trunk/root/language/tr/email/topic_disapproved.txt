@@ -1,0 +1,9 @@
+Subject: {SITENAME} - konu yayından kaldırıldı: {TOPIC_TITLE}
+
+Sayın {USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosuna açmış olduğunuz "{TOPIC_TITLE}" başlıklı konunun bir yetkili tarafından yayından kaldırıldığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+
+Yayından kaldırma sebebi: {REASON}
+
+{EMAIL_SIG}

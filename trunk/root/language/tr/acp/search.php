@@ -79,13 +79,13 @@ $lang = array_merge($lang, array(
 
 	'PROGRESS_BAR'							=> 'Durum çubuğu',
 	
-	'SEARCH_GUEST_INTERVAL'					=> 'Misafir kullanıcı arama sıklık aralığı',
+	'SEARCH_GUEST_INTERVAL'					=> 'Misafir kullanıcı arama zaman aralığı',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Misafirlerin aramalar arasında beklemesi gereken saniye sayısı. Eğer bir misafir arama yaparsa, tüm misafirler yeni arama yapmak için aramanın üzerinden bu sürenin geçmesini beklemeliler.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> '%1$d numaralı iletiye kadar olan tüm iletiler indekslendi. Bu aşamada %2$d ileti vardı.<br />Şu andaki indeksleme oranı saniye başına yaklaşık %3$.1f iletidir. <br />İndeksleme sürüyor…',
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> '%1$d numaralı iletiye kadar tüm iletiler arama indeksinden kaldırıldı. <br />Silme işlemi devam ediyor…',
 	'SEARCH_INDEX_CREATED'					=> 'Pano veritabanındaki tüm mesajlar sorunsuzca indekslendi.',
 	'SEARCH_INDEX_REMOVED'					=> 'Bu uygulama için arama indeksi sorunsuzca silindi.',
-	'SEARCH_INTERVAL'						=> 'Kullanıcı arama sıklık aralığı',
+	'SEARCH_INTERVAL'						=> 'Kullanıcı arama zaman aralığı',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'İki arama arasında beklenecek saniye cinsinden süre. Bu süre her kullanıcı için bağımsız kontrol edilir.',
 	'SEARCH_STORE_RESULTS'					=> 'Arama sonucu önbellek boyutu',
 	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Önbelleğe alınmış arama sonuçlarının saniye cinsinden sona ereceği süre. Eğer arama önbelleğini kapatmak istiyorsanız 0 olarak ayarlayın.',

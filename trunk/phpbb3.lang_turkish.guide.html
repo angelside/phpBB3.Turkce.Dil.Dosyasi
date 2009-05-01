@@ -119,18 +119,14 @@ dl.codebox code {
 </style>
 <script type="text/javascript">
 // <![CDATA[
-function selectCode(a)
-{
+function selectCode(a) {
 	// Get ID of code block
 	var e = a.parentNode.parentNode.getElementsByTagName('CODE')[0];
-	if (document.selection)
-	{
+	if (document.selection) {
 		var r = document.body.createTextRange();
 		r.moveToElementText(e);
 		r.select();
-	}
-	else
-	{
+	} else {
 		var s = window.getSelection();
 		var r = document.createRange();
 		r.setStartBefore(e);
@@ -141,7 +137,6 @@ function selectCode(a)
 // ]]>
 </script>
 </head>
-
 <body>
 
 <table align="center">
@@ -171,7 +166,7 @@ function selectCode(a)
 				<tr>
 					<td style="padding-left:10px;"><strong>Sürüm</strong></td>
 					<td>&nbsp;:&nbsp;</td>
-					<td>0.0.71.a &nbsp; 13 Aralık 2008 &nbsp; ( phpBB 3.0.4 ) &nbsp; Unicode (UTF-8)</td>
+					<td>0.0.72.a &nbsp; 01 Mayıs 2009 &nbsp; ( phpBB 3.0.5 ) &nbsp; Unicode (UTF-8)</td>
 				</tr>
 				<tr>
 					<td style="padding-left:10px;" valign="top"><strong>Tercüme & Telif</strong></td>
@@ -222,8 +217,11 @@ function selectCode(a)
 			<p>
 				<ul type="square">
 					<li>Bu paket; phpBB ve işlevselliği konusunda tecrübeli bir oluşum olan <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a> grubu tarafından phpBB3 için tercüme edilen ve geliştirilen, yüksek kalite ve işlevsellik amaçlanan ve standart olarak UTF-8 formatında olan "<strong><a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dil Dosyası</a></strong>" 'dır.</li>
-					<li>Tercümede; görünüm, işlev, uyumluluk gibi bazı kriterlere göre sözlük tercümesinden farklı, daha uygun kelime ve cümleler kullanılmış, bazı kelimeler üzerinde günlerce kafa patlatılmış, anlamı tamamlayıcı değişiklikler yapılmıştır.</li>
-					<li>Dosyalar, yeni phpBB3 sürümlerine, yamalara, hata ve geri bildirimlere göre güncellenmeye devam edilecektir.</li>
+					<br />
+					<li>Tercümede; görünüm, işlev, uyumluluk gibi bazı kriterlere göre sözlük tercümesinden farklı, daha uygun kelime ve cümleler kullanılmış, bazı kelimeler üzerinde günlerce tartışılmış, anlamı tamamlayıcı değişiklikler yapılmıştır.</li>
+					<br />
+					<li>Dosyalar, yeni phpBB3 sürümlerine, yamalara, hata ve geri bildirimlere göre sürekli güncellenmektedir.</li>
+					<br />
 					<li>phpBB3 Türkçe Dil Dosyası'nın son güncel sürümünü <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a> sitemizin <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dil Dosyası</a> forumudan, eğer yüklediyseniz "<a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/dil-dosyasi-surum-denetimi-modulu-t14.html" target="_blank">Dil dosyası sürüm denetimi</a>" modülünden kontrol edebilirsiniz.</li>
 				</ul>
 			</p>
@@ -234,26 +232,30 @@ function selectCode(a)
 			<!-- [+] kullanım & bulundurma koşulları //-->
 			<h3>Kullanım, bulundurma, beğişiklik koşulları</h3>
 
-			<p>"phpBB Türkiye" grubu tarafından tercümesi yapılan, geliştirilen ve dağıtıma sunulan bu dil dosyasını kullanabilmek için <a href="http://www.phpbbturkiye.net/sayfa-gpl-lisansi.html" target="_blank" rel="nofollow">GPL</a> lisansınında da yer alan koşullara ve özellikle aşağıdaki koşullara uymanız gerekmektedir. Dil dosyasını herhangi bir şekilde kullanmanız bu koşulları kabul ettiğiniz anlamına gelir.<br />
+			<p>"<strong>phpBB Türkiye</strong>" grubu tarafından tercümesi yapılan, geliştirilen ve dağıtıma sunulan bu dil dosyasını kullanabilmek için <a href="http://www.phpbbturkiye.net/sayfa-gpl-lisansi.html" target="_blank" rel="nofollow">GPL</a> lisansınında da yer alan koşullara ve özellikle aşağıdaki koşullara uymanız gerekmektedir. Dil dosyasını herhangi bir şekilde kullanmanız bu koşulları kabul ettiğiniz anlamına gelir.<br />
 
 			<h4>1. Kullanım ve değişiklik yapma ile ilgili koşullar</h4>
 			<ul type="square">
 				<li>Bizim telif bilgilerimizi silemez, kaldıramaz, müdahale edemezsiniz.</li>
+				<br />
 				<li>Kullandığınız temada tercüme telif kodu silinmiş ise, <span class="file">overall_footer.html</span> 
 				dosyasına şu kodu eklemelisini: <strong>{TRANSLATION_INFO}</strong></li>
+				<br />
 				<li>Telif bilgileri dışında istediğiniz değişiklik ve eklemeleri yapabilirsiniz. Ancak bunları sadece kendi sitenizde kullanabilir, dağıtamazsınız.</li>
 			</ul>
 
 			<h4>2. Bulundurma ile ilgili koşullar</h4>
 			<ul type="square">
 				<li>Tarafımızdan, e-posta yolu ile izin verilmediği sürece "phpBB3 Türkçe Dil Dosyası" 'nın dağıtımı herhangi bir siteden/alandan yapılamaz.</li>
+				<br />
 				<li>Taban olarak tarafımızca yapılan dil dosyalarını kullanarak oluşturabileceğiniz dil dosyalarını e-posta yolu ile izin verilmediği sürece yayınlayamaz, sadece kendiniz için kullanabilirsiniz.</li>
 			</ul>
 
 			<h4>3. Gelişmiş phpBB/premod yazarlarına</h4>
 			<ul type="square">
 				<li>E-posta yolu ile izin verilmediği sürece, gelişmiş phpBB sistemlerinde telif bilgilerimize müdahale edemezsiniz.</li>
-				<li>Bu kılavuzu phpBB sisteminiz ile beraber dağıtarak, kullanıcıları "<strong>Kullanım & Bulundurma Koşulları</strong>"ndan haberdar etmelisiniz.</li>
+				<br />
+				<li>Bu kılavuzu phpBB sisteminiz ile beraber dağıtarak, kullanıcıları "<strong>kullanım & bulundurma koşulları</strong>"ndan haberdar etmelisiniz.</li>
 			</ul>
 			</p>
 			<!-- [-] kullanım & bulundurma koşulları //-->
@@ -304,20 +306,20 @@ function selectCode(a)
 			<!-- [+] geliştirme //-->
 			<h3>Geliştirme, hata bildirme</h3>
 
+			<!--
 			<h4>SVN sistemi</h4>
 			<p>Tercüme projesinde kullanılan SVN sisteminden, dil dosyalarında yapılan değişiklikleri takip edebilir, değişikliklerin e-posta adresinize gelmesini sağlayabilir, henüz sürüm olarak yayınlanmamış güncel dosyaları kendi bilgisayarınıza indirebilirsiniz.</p>
-
 			<ul type="square">
 				<li><a href="https://sourceforge.net/svn/?group_id=189800" target="_blank">SVN alanımıza bağlantı bilgileri</a></li>
 				<li><a href="http://phpbbturkiye.svn.sourceforge.net/viewvc/phpbbturkiye/phpbb3.lang_turkish/" target="_blank">Web tabanlı SVN deposu izleyicisi</a></li>
 			</ul>
 
-
 			<h4>SVN sistemi - e-posta listesi</h4>
 			<p><a href="https://lists.sourceforge.net/lists/listinfo/phpbbturkiye-update" target="_blank">E-posta listesi</a> sayesinde, yapılan tüm değişiklikler liste üyelerinin e-posta adreslerine gönderilir. Ayrıca listeye eklenen tüm iletiler bir de <a href="http://sourceforge.net/mailarchive/forum.php?forum=phpbbturkiye-update" target="_blank">arşiv</a> alanında tutulur. Değişiklikleri izlemek isteyenler, e-posta listesi'ne kayıt olabilir.</p>
-
+			-->
+			
 			<h4>Hata ve geri bildirim</h4>
-			<p>Gözden kaçan hataları, önerileri ve yorumlarınızı "<a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a>" sitemizdeki <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dosyası</a> forumuna bildirebilirsiniz.</p>
+			<p>Gözden kaçan hataları, yanlış olduğunu düşündüğünüz tercüme ve ifadeleri, tüm önerileri ve yorumlarınızı "<a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a>" sitemizdeki <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dosyası</a> forumuna bildirebilirsiniz.</p>
 			<!-- [-] geliştirme //-->
 
 			<!-- =============================================================================================== -->
@@ -328,19 +330,19 @@ function selectCode(a)
 			<table border="0">
 			<tr>
 				<td valign="top">
-					<h4>Tercüme grubu</h4>
+					<h4>İlk tercüme grubu (phpBB 3.0.0 Gold)</h4>
 					<p>
 						<ul type="square" class="ul2">
-							<li><strong>Bülent Küçükaslan</strong> - <a  href="http://www.engelliler.biz" target="_blank"><small>engelliler.biz platformu</small></a></li>
-							<li><strong>Dinçer Aydiç</strong> - <a  href="http://www.iolpliler.net" target="_blank"><small>iölp egitim ve paylaşım</small></a></li>
-							<li><strong>Erdem Arslan</strong> - <a  href="http://www.dostlukbirbaska.com" target="_blank"><small>dostluk bir başka</small></a></li>
-							<li><strong>Erdoğan Şimşek</strong> - <a  href="http://www.eglenceyeri.net" target="_blank"><small>eğlence yeri</small></a></li>
-							<li><strong>Hamza Apaydın</strong> - <a  href="#" target="_blank"><small>#</small></a></li>
-							<li><strong>Sabri Ünal</strong> - <a  href="http://www.yakusha.net" target="_blank"><small>Yakusha</small></a></li>
-							<li><strong>Selman Solak</strong> - <a  href="http://www.buzlas.net" target="_blank"><small>BuzLaş</small></a></li>
-							<li><strong>Sevdin Filiz</strong> - <a  href="http://www.canversoft.net" target="_blank"><small>Canver Software</small></a></li>
-							<li><strong>Utku Filiz</strong> - <a  href="http://www.bizdenbiri.com" target="_blank"><small>bizdenbiri olmak ister misin?</small></a></li>
-							<li><strong>Zafer Sarışahin</strong> - <a  href="http://www.simuzer.com" target="_blank"><small>sımsıcak bir sevgi edebiyatı</small></a></li>
+							<li>Bülent Küçükaslan - <a href="http://www.engelliler.biz" target="_blank"><small>engelliler.biz platformu</small></a></li>
+							<li>Dinçer Aydiç - <a href="http://www.iolpliler.net" target="_blank"><small>iölp egitim ve paylaşım</small></a></li>
+							<li>Erdem Arslan - <a href="http://www.dostlukbirbaska.com" target="_blank"><small>dostluk bir başka</small></a></li>
+							<li>Erdoğan Şimşek - <a href="http://www.eglenceyeri.net" target="_blank"><small>eğlence yeri</small></a></li>
+							<li>Hamza Apaydın - <a href="#" target="_blank"><small>#</small></a></li>
+							<li>Sabri Ünal - <a href="http://www.yakusha.net" target="_blank"><small>Yakusha</small></a></li>
+							<li>Selman Solak - <a href="http://www.buzlas.net" target="_blank"><small>BuzLaş</small></a></li>
+							<li>Sevdin Filiz - <a href="http://www.canversoft.net" target="_blank"><small>Canver Software</small></a></li>
+							<li>Utku Filiz - <a href="http://www.bizdenbiri.com" target="_blank"><small>bizdenbiri olmak ister misin?</small></a></li>
+							<li>Zafer Sarışahin - <a href="http://www.simuzer.com" target="_blank"><small>sımsıcak bir sevgi edebiyatı</small></a></li>
 						</ul>
 					</p>
 				</td>
@@ -349,11 +351,20 @@ function selectCode(a)
 					<h4>Katkıda bulunanlar</h4>
 					<p>
 						<ul type="square" class="ul2">
-							<li><strong>Emrah Bayıldıran</strong><small> / İngilizce Yeminli Tercüman - <a  href="http://www.tercumen.net/" target="_blank">Tercümanlık Hizmetleri</a></small></li>
-							<li><strong>Kaan Başkal</strong> - <a  href="http://www.melankoliyiz.biz" target="_blank"><small>Melankoli Forumu</small></a></li>
-							<li><strong>Hilmi Erdem Keren</strong> - <a  href="http://www.why-islam.net" target="_blank"><small>Why-Islam</small></a></li>
+							<li>Emrah Bayıldıran<small> / İngilizce Yeminli Tercüman - <a href="http://www.tercumen.net/" target="_blank">Tercümanlık Hizmetleri</a></small></li>
+							<li>Kaan Başkal - <a href="http://www.melankoliyiz.biz" target="_blank"><small>Melankoli Forumu</small></a></li>
+							<li>Hilmi Erdem Keren - <a href="http://www.why-islam.net" target="_blank"><small>Why-Islam</small></a></li>
 						</ul>
 					</p>
+					<br />
+					
+					<h4>Süreklilik, yeni sürüm güncellemeleri</h4>
+					<p>
+						<ul type="square" class="ul2">
+							<li>Sevdin Filiz - <a href="http://www.canversoft.net" target="_blank"><small>Canver Software</small></a></li>
+						</ul>
+					</p>
+					
 				</td>
 			</tr>
 			</table>
@@ -366,6 +377,7 @@ function selectCode(a)
 			<p>Sürüm geçmişinin aşırı yer kaplamaması için ara sürüm ve bazı SVN sürümleri atlanmış, sadece son kullanıcıya sunulan ana dağıtımlara yer verilmiştir.</p> 
 			<p>
 				<ul type="square">
+					<li><strong>v. 0.0.72.a</strong> &nbsp;&nbsp;( 01.05.2009 ) - <strong>phpBB 3.0.5</strong> güncellemesi</li>
 					<li><strong>v. 0.0.71.a</strong> &nbsp;&nbsp;( 13.12.2008 ) - <strong>phpBB 3.0.4</strong> güncellemesi (3.0.4 RC1 ile aynı)</li>
 					<li><strong>v. 0.0.70.a</strong> &nbsp;&nbsp;( 10.12.2008 ) - <strong>phpBB 3.0.4-RC1</strong> güncellemesi</li>
 					<li><strong>v. 0.0.68.a</strong> &nbsp;&nbsp;( 12.11.2008 ) - <strong>phpBB 3.0.3</strong> güncellemesi</li>

@@ -72,6 +72,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Aramada kayıt altına alınacak en yüksek karakter',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Aramada kayıt altına alınacak karakterler bundan fazla olmayacak.',
+'MAX_NUM_SEARCH_KEYWORDS'				=> 'Maximum number of allowed keywords',
+'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Maximum number of words the user is able to search for. A value of 0 allows an unlimited number of words.',
 	'MIN_SEARCH_CHARS'						=> 'Aramada kayıt altına alınacak en düşük karakter',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Aramada kayıt altına alınacak karakterler bundan düşük olmayacak.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'En az yazar ismi karakter uzunluğu',

@@ -266,6 +266,8 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Lütfen bu dosyanın web sunucunuzda olduğunu ve yazılabilir durumda olduğundan emin olunuz:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Lütfen bu dizinlerin web sunucunuzda olduğunu ve yazılabilir durumda olduğundan emin olunuz:<br />»<strong>%s</strong>.',
 
+'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Your MySQL database schema for phpBB is outdated. phpBB detected a schema for MySQL 3.x/4.x, but the server runs on MySQL %2$s.<br /><strong>Before you proceed the update, you need to upgrade the schema.</strong><br /><br />Please refer to the <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. If you encounter problems, please use <a href="http://www.phpbb.com/community/viewforum.php?f=46">our support forums</a>.',
+	
 	'NAMING_CONFLICT'			=> 'İsim uyuşmazlığı: %s ve %s her ikisi de aynıdır<br /><br />%s',
 	'NEXT_STEP'					=> 'Sonraki aşama',
 	'NOT_FOUND'					=> 'Bulunamadı',
@@ -404,7 +406,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Güncellemeye şimdi devam et',					// Shown after file upload to indicate the update process is not yet finished
 	
-	'CURRENT_FILE'					=> 'Geçerli orijinal dosya başlangıcı',
+	'CURRENT_FILE'					=> 'Çakışma başlangıcı - Güncelleme öncesi orijinal dosya kodları',
 	'CURRENT_VERSION'				=> 'Şimdiki sürüm',
 
 	'DATABASE_TYPE'					=> 'Veritabanı türü',
@@ -414,14 +416,16 @@ $lang = array_merge($lang, array(
 	'DESTINATION'					=> 'Hedef dosya',
 	'DIFF_INLINE'					=> 'Satır içi',
 	'DIFF_RAW'						=> 'Ham karşılaştırmayı birleştir',
-	'DIFF_SEP_EXPLAIN'				=> 'Şu anki geçerli orijinal dosyanın sonu / yeni yüklenen dosyanın başlangıcı',
+	'DIFF_SEP_EXPLAIN'				=> 'Güncellenmiş/yeni dosyaların kullandığı kod bloğu',
 	'DIFF_SIDE_BY_SIDE'				=> 'Yan yana',
 	'DIFF_UNIFIED'					=> 'Karşılaştırmayı birleştir',
-	'DO_NOT_UPDATE'					=> 'Bu dosyayı güncelliyemediniz',
+	'DO_NOT_UPDATE'					=> 'Bu dosyayı güncelleyemediniz',
 	'DONE'							=> 'Tamam',
 	'DOWNLOAD'						=> 'İndir',
 	'DOWNLOAD_AS'					=> 'Farklı indir',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'	=> 'Değiştirilen arşiv dosyalarını indir (önerilir)', // Download modified files archive (önerilir)
+'DOWNLOAD_CONFLICTS'				=> 'Download conflicts for this file',
+'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Search for &lt;&lt;&lt; to spot conflicts',
 	'DOWNLOAD_UPDATE_METHOD'		=> 'Değiştirilen arşiv dosyalarını indir', //Download modified files archive
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'=> 'Kurulumdan sonra arşivi çıkarmalısınız. İçerisinde phpBB ana dizinine yüklemeniz gereken düzenlenmiş dosyalar bulunuyor. Lütfen bu dosyaları normalde bulundukları yerlere koyun. Tüm dosyaları gönderdikten sonra, diğer butonu kullanarak dosyaları sınayın.',
 
@@ -466,13 +470,13 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Birleştirme - Yeni dosyayı kullan',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Birleştirme - Kurulu dosyayı kullan',
-	'MERGE_MOD_FILE_OPTION'		=> 'Farklılıkları birleştir ve çakışan bloklar içinde düzenlenmiş kodları kullan',
-	'MERGE_NEW_FILE_OPTION'		=> 'Farklılıkları birleştir ve çakışan dosyalar içinde yeni dosya kodlarını kullan',
+	'MERGE_MOD_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan bloklar içinde düzenlenmiş kodları kullan)', // Loose ??
+	'MERGE_NEW_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan dosyalar içinde yeni dosya kodlarını kullan)',
 	'MERGE_SELECT_ERROR'		=> 'Değişen dosyaları birleştirme modu doğru değil.',
 	'MERGING_FILES'				=> 'Farklılıkları birleştir',
 	'MERGING_FILES_EXPLAIN'		=> 'Güncel olarak toplarlanan son dosyayı değiştirir.<br /><br />phpBB değiştirilen dosyalarda bütün çalışmaları tamamlayıncaya kadar lütfen bekleyiniz.', //'Currently collecting final file changes.<br /><br />Please wait until phpBB has completed all operations on changed files.',
 
-	'NEW_FILE'						=> 'Yeni güncellenen dosyanın sonu',
+	'NEW_FILE'						=> 'Çakışmaların sonu',
 	'NEW_USERNAME'					=> 'Yeni kullanıcı adı',
 	'NO_AUTH_UPDATE'				=> 'Güncellemek için yetki yok',
 	'NO_ERRORS'						=> 'Hata yok',

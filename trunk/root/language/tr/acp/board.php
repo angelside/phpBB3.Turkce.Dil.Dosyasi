@@ -228,6 +228,8 @@ $lang = array_merge($lang, array(
 	'USERNAME_CHARS_EXPLAIN'	=> 'Kullanıcı adı belirlenirken sınırlı tipte özel karakter girebilir bunlar, boşluk, -, +, _, [ ve ]’dir.',
 	'USERNAME_LENGTH'			=> 'Kullanıcı adı uzunluğu',
 	'USERNAME_LENGTH_EXPLAIN'	=> 'En az ve en çok kullanıcı adı karakter uzunluğu.',
+'VISUAL_CONFIRM_REFRESH'		=> 'Enable users to refresh the confirmation image',
+'VISUAL_CONFIRM_REFRESH_EXPLAIN'=> 'Allows users to request new confirmation codes, if they are unable to solve the VC during registration.',	
 ));
 
 // Visual Confirmation Settings
@@ -243,6 +245,16 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA arkaplan uygulaması y-ekseni',
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'GD tabanlı CAPTCHA’yı güçlendirmek için bu ayarları düşük seviyede kullanın. 0 y-eksenli arkaplan uygulaması kısık hale getirecektir.',
 
+'CAPTCHA_GD_WAVE'						=> 'GD CAPTCHA wave distortion',
+'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'This applies a wave distortion to the CAPTCHA.',
+'CAPTCHA_GD_3D_NOISE'					=> 'Add 3D-noise objects',
+'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'This adds additional objects to the CAPTCHA, over the letters.',
+'CAPTCHA_GD_FONTS'						=> 'Use different fonts',
+'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'This setting controls how many different letter shapes are used. You can just use the default shapes or introduce altered letters. Adding lowercase letters is also possible.',
+'CAPTCHA_FONT_DEFAULT'					=> 'Default',
+'CAPTCHA_FONT_NEW'						=> 'New Shapes',
+'CAPTCHA_FONT_LOWER'					=> 'Also use lowercase',
+	
 	'CAPTCHA_PREVIEW_MSG'			=> 'Görsel doğrulama ayarlarınız kaydedilmedi. Bu sadece bir önizlemedir.',
 	'CAPTCHA_PREVIEW_EXPLAIN'		=> 'CAPTCHA mavcut ayarları kullanıyor gibi görünüyor. Sayfayı yenilemek için önizleme butonunu tıklayın. CAPTCHA’ların rastgele olduğunu ve bir görüntünün diğerinden farklı olacağını unutmayın.',
 	'VISUAL_CONFIRM_POST'			=> 'Görsel doğrulamayı misafirler için aktif hale getir',

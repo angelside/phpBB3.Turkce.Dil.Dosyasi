@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'Yüklenen dosya sadece kısmen yüklenebildi.', 
 	'PHP_SIZE_NA'				=> 'Eklentinin boyutu çok büyük.<br />PHP tarafından belirlenmiş php.ini dosyasında geçerli olan dosya boyutu aşılamaz.',
-	'PHP_SIZE_OVERRUN'			=> 'Eklentinin boyutu çok büyük, gönderilebilecek dosyanın boyutu en fazla %d MB olabilir.<br />php.ini dosyası tarafından belirlenen bu boyut değiştirilemez.',
+	'PHP_SIZE_OVERRUN'			=> 'Eklentinin boyutu çok büyük, gönderilebilecek dosyanın boyutu en fazla %1$d %2$s olabilir.<br />php.ini dosyası tarafından belirlenen bu boyut değiştirilemez.',
 	'PLACE_INLINE'				=> 'Satır içine yerleştir',
 	'POLL_DELETE'				=> 'Anket sil',
 	'POLL_FOR'					=> 'Anketi çalıştır',

@@ -83,6 +83,7 @@ $lang = array_merge($lang, array(
 
 	'FORUM_IMAGE'						=> 'Forum resmi',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Bu forum için uygun olan resmin phpBB ana dizinine göre göreceli yolu.',
+	'FORUM_IMAGE_NO_EXIST'				=> 'Belirtilen forum resmi mevcut değil',	
 	'FORUM_LINK_EXPLAIN'				=> 'Tıklandığında kullanıcının yönlendirileceği konumun tam adresi (protokol dahil, örneğin: <samp>http://</samp>).',
 	'FORUM_LINK_TRACK'					=> 'Yönlendirmeyi kayıt et',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Forum linklerinin kaç defa ziyaret edildiğini sayar ve gösterir.',

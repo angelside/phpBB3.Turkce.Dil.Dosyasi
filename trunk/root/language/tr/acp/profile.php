@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Kullanıcı bu hesap alanını kullanıcı kontrol panelini kullanarak değiştirebilir.',
 	'DISPLAY_AT_REGISTER'			=> 'Kayıt ekranında göster',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Eğer bu seçenek aktif olursa, bu alan kayıt sırasında görüntülenecektir.',
-	'DISPLAY_PROFILE_FIELD'			=> 'Hesap alanını göster',
+	'DISPLAY_PROFILE_FIELD'			=> 'Hesap alanını herkese göster',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> '"Sistem kaynakları" bölümünde izin verilen bütün alanlarda özel profil alanları gösterilecektir. Bunu “hayır” olarak işaretlemek, konu gösterim sayfalarında, hesaplarda ve üye listesinde bu alanların gösterilmemesine sebep olacaktır.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Her biri bir satırda olacak şekilde seçeneklerinizi giriniz.', //Enter your options now, every option in one line
 

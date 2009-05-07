@@ -129,8 +129,8 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Yeni mesajları tut',
 	'PM_EDIT_TIME'				=> 'Değiştirme süresini kısıtla',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Henüz ulaşmamış olan özel mesajlarda değişiklik yapma süresini kısıtla. Değer olarak sıfır (0) girerseniz bu özellik kullanım dışı kalacaktır.',
-	'PM_MAX_RECIPIENTS'			=> 'İzin verilen maksimum alıcı sayıs',
-	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Bir özel mesajda izin verilen maksimum alıcı sayısı. Eğer 0 girilirse, sınırsız sayıda alıcı eklemeye izin verilir. Bu ayar her grup için grup ayarları sayfasında değiştirilebilir.',
+	'PM_MAX_RECIPIENTS'			=> 'İzin verilen en fazla alıcı sayısı',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Bir özel mesajda izin verilen en fazla alıcı sayısı. Eğer 0 girilirse, sınırsız sayıda alıcı eklemeye izin verilir. Bu ayar her grup için grup ayarları sayfasında değiştirilebilir.',
 ));
 
 // Post Settings
@@ -142,8 +142,8 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_FLASH_EXPLAIN'		=> 'Eğer iletilerde <code>[FLASH]</code> biçim etiketini kapatırsanız, iletilerideki biçimler kapatılır. İzin sistemi kullanıcıların <code>[FLASH]</code> kullanış biçimlerini başka türlü kontrol eder.',
 	'ENABLE_QUEUE_TRIGGER'			=> 'İletilerin kuyruğa alınmasını etkinleştir',
 	'ENABLE_QUEUE_TRIGGER_EXPLAIN'	=> 'Kayıtlı kullanıcıların ileti sayısı aşağıda belirlenen değerden küçükse iletileri onaylamayarak gönderebilme yeteneği. Bu ayarın ileti/konu onaylama izini üzerinde bir etkisi yoktur.',
-	'QUEUE_TRIGGER_POSTS'			=> 'Kuyruktaki iletiler için maksimum ileti sayısı',
-	'QUEUE_TRIGGER_POSTS_EXPLAIN'	=> 'İletilerin kuyruğa alınması ayarı etkin iken, kullanıcının onaylanmadan ileti gönderebilmesi için ulaşması gerekli minimum ileti sayısıdır. Eğer kullanıcı ileti sayısı bu değerden küçükse, ileti otomatik olarak onay kuyruğuna alınır.',
+	'QUEUE_TRIGGER_POSTS'			=> 'Kuyruktaki iletiler için en fazla ileti sayısı',
+	'QUEUE_TRIGGER_POSTS_EXPLAIN'	=> 'İletilerin kuyruğa alınması ayarı etkin iken, kullanıcının onaylanmadan ileti gönderebilmesi için ulaşması gerekli en az ileti sayısıdır. Eğer kullanıcı ileti sayısı bu değerden küçükse, ileti otomatik olarak onay kuyruğuna alınır.',
 	'BUMP_INTERVAL'					=> 'Güncelleme aralığı',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Bir başlığa gönderilen son ilet ve bu başlığın değiştirilme yeteneği arasında kalan dakika, saat ya da gün sayısı.',
 	'CHAR_LIMIT'					=> 'İleti başına en fazla karakter',
@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
 	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Buradan imzalar için tüm varsayılan ayarları değiştirebilirsiniz.',
 
 	'MAX_SIG_FONT_SIZE'				=> 'En fazla font boyutu',
-	'MAX_SIG_FONT_SIZE_EXPLAIN'		=> 'İmzada kabul edilecek maksimum metin boyutu. Boyut sınırı koymamak için 0 değerini yazın.',
+	'MAX_SIG_FONT_SIZE_EXPLAIN'		=> 'İmzada kabul edilecek en fazla metin boyutu. Boyut sınırı koymamak için 0 değerini yazın.',
 	'MAX_SIG_IMG_HEIGHT'			=> 'İmzada izin verilen en fazla resim yüksekliği',
 	'MAX_SIG_IMG_HEIGHT_EXPLAIN'	=> 'İmzadaki resim/flash dosyaları için kullanılabilecek en yüksek değer.. Yükseklik sınırı koymamak için 0 değerini yazın.',
 	'MAX_SIG_IMG_WIDTH'				=> 'İmzada izin verilen en fazla resim genişliği',

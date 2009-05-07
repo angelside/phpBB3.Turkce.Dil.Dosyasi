@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Lütfen bu dosyanın web sunucunuzda olduğunu ve yazılabilir durumda olduğundan emin olunuz:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Lütfen bu dizinlerin web sunucunuzda olduğunu ve yazılabilir durumda olduğundan emin olunuz:<br />»<strong>%s</strong>.',
 
-'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Your MySQL database schema for phpBB is outdated. phpBB detected a schema for MySQL 3.x/4.x, but the server runs on MySQL %2$s.<br /><strong>Before you proceed the update, you need to upgrade the schema.</strong><br /><br />Please refer to the <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. If you encounter problems, please use <a href="http://www.phpbb.com/community/viewforum.php?f=46">our support forums</a>.',
+'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'phpBB için olan MySQL veritabanı şemanız güncel değil. phpBB, şemanızın MySQL 3.x/4.x için olduğunu belirledi, ama sunucu MySQL %2$s çalıştırmakta.<br /><strong>Güncellemeye devam etmeden önce şemanızı yükseltmeniz gerekiyor.</strong><br /><br />Lütfen yükseltme işlemi için <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a> makalesini inceleyin. Problemlerle karşılaşırsanız, lütfen destek forumlarımızı (<a href="http://www.phpbb.com/community/viewforum.php?f=46">İngilizce</a>, <a href="http://www.phpbbturkiye.net/phpbb3-sorunlar-yardim-f15/">Türkçe</a>) kullanın.',
 	
 	'NAMING_CONFLICT'			=> 'İsim uyuşmazlığı: %s ve %s her ikisi de aynıdır<br /><br />%s',
 	'NEXT_STEP'					=> 'Sonraki aşama',
@@ -424,8 +424,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'						=> 'İndir',
 	'DOWNLOAD_AS'					=> 'Farklı indir',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'	=> 'Değiştirilen arşiv dosyalarını indir (önerilir)', // Download modified files archive (önerilir)
-'DOWNLOAD_CONFLICTS'				=> 'Download conflicts for this file',
-'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Search for &lt;&lt;&lt; to spot conflicts',
+	'DOWNLOAD_CONFLICTS'			=> 'Bu dosya için uyuşmazlıkları indirin',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'	=> 'Uyuşmazlıkları fark etmek için &lt;&lt;&lt; içinde arama yapın',
 	'DOWNLOAD_UPDATE_METHOD'		=> 'Değiştirilen arşiv dosyalarını indir', //Download modified files archive
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'=> 'Kurulumdan sonra arşivi çıkarmalısınız. İçerisinde phpBB ana dizinine yüklemeniz gereken düzenlenmiş dosyalar bulunuyor. Lütfen bu dosyaları normalde bulundukları yerlere koyun. Tüm dosyaları gönderdikten sonra, diğer butonu kullanarak dosyaları sınayın.',
 
@@ -435,13 +435,13 @@ $lang = array_merge($lang, array(
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Dosya zaten güncel.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Dosya, karşılaştırma yapmaya izinli değil.',
 	'FILE_USED'						=> 'Bilgi kullanım yeri',	// Single file
-	'FILES_CONFLICT'				=> 'Çakışan dosyalar',
-	'FILES_CONFLICT_EXPLAIN' 		=> 'Bu dosyalar modifiye edilmiştir ve eski sürümdeki orijinal dosyaları temsil etmemektedir. phpBB, sözkonusu dosyların birleştirmeye çalışılır ise ciddi şekilde çakışma yaratabileceğini tespit etti. Lütfen bu çakışmaların olası nedenlerini el yordamı ile kendiniz tespit etmeye çalışınız veya tercih edilen birleştirme metodunu kullanarak güncelleme işlemine devam ediniz. Çakışmaları tespit etmeyi başardı iseniz, modifikasyon işleminin ardından yeniden el yordamı ile kontrol ediniz. Aynı zamanda her dosya için istediğiniz bir birleştirme metodu da kullabileceğinizi hatırlatmak isteriz.',
+	'FILES_CONFLICT'				=> 'Uyuşmayan dosyalar',
+	'FILES_CONFLICT_EXPLAIN' 		=> 'Bu dosyalar modifiye edilmiştir ve eski sürümdeki orijinal dosyaları temsil etmemektedir. phpBB, sözkonusu dosyların birleştirmeye çalışılır ise ciddi şekilde uyuşmazlık yaratabileceğini tespit etti. Lütfen bu uyuşmazsızlık olası nedenlerini el yordamı ile kendiniz tespit etmeye çalışınız veya tercih edilen birleştirme metodunu kullanarak güncelleme işlemine devam ediniz. Çakışmaları tespit etmeyi başardı iseniz, modifikasyon işleminin ardından yeniden el yordamı ile kontrol ediniz. Aynı zamanda her dosya için istediğiniz bir birleştirme metodu da kullabileceğinizi hatırlatmak isteriz.',
 	'FILES_MODIFIED'				=> 'Düzenlenen dosyalar',
 	'FILES_MODIFIED_EXPLAIN'		=> 'Takip eden dosyalar düzenlenmiş, eski sürüm orijinal dosyalarla uyuşmuyor. Güncellenen dosyalar yeni dosya ve eklentilerinizle birleştirilecek.',
 	'FILES_NEW'						=> 'Yeni dosyalar',
 	'FILES_NEW_EXPLAIN'				=> 'Takip eden dosyalar kurulumunuzda bulunmuyor. Bu dosyalar kurulumunuza dahil edilecek.',
-	'FILES_NEW_CONFLICT'			=> 'Yeni çakışan dosyalar',
+	'FILES_NEW_CONFLICT'			=> 'Yeni uyuşmayan dosyalar',
 	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Takip eden dosyalar, en son sürümün içinde yenidir. Fakat aynı konumda aynı isimli dosyalar zaten var. Bu dosyaların üzerlerine yenileri yazılacak.',
 	'FILES_NOT_MODIFIED'			=> 'Düzenlenmeyen dosyalar',
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Takip eden dosyalar değişmemiş ve güncelleyeceğiniz yeni phpBB dosyaları ile aynı olan dosyaları temsil etmektedir.',
@@ -489,7 +489,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Görünen değişiklik yok',
 	'NOTICE'						=> 'Uyarı',
 	'NUM_CONFLICTS'					=> 'Uyuşmazlıkların sayısı',
-	'NUMBER_OF_FILES_COLLECTED'      => 'Henüz %1$d dosyadan %2$d tanesi kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyiniz.', // Currently differences of %1$d of %2$d files have been checked.
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Henüz %1$d dosyadan %2$d tanesi kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyiniz.', // Currently differences of %1$d of %2$d files have been checked.
 	
 	'OLD_UPDATE_FILES'		=> 'Güncelleme dosyalarının zamanı geçmiş. Güncelleme dosyaları phpBB %1$s’den phpBB %2$s’e güncelleme yapmaktadır ancak son phpBB sürümü %3$s’dir.',
 
@@ -505,7 +505,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DIFF_MODE'			=> 'Farklılık modu seçin',
 	'SELECT_DOWNLOAD_FORMAT'	=> 'İndirilecek dosyanın arşiv formatını seçiniz',
 	'SELECT_FTP_SETTINGS'		=> 'FTP ayarlarını seçiniz',
-	'SHOW_DIFF_CONFLICT'		=> 'Farkları/çakışmaları göster',
+	'SHOW_DIFF_CONFLICT'		=> 'Uyuşmazlıkları göster',
 	'SHOW_DIFF_FINAL'			=> 'Dosya sonucunu göster',
 	'SHOW_DIFF_MODIFIED'		=> 'Birleştirilen farkları göster',
 	'SHOW_DIFF_NEW'				=> 'Dosya içeriğini göster',
@@ -518,7 +518,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DB'			=> 'Veritabanı güncellemesi',
 	'STAGE_UPDATE_FILES'		=> 'Dosya güncellemesi',
 	'STAGE_VERSION_CHECK'		=> 'Sürüm denetimi',
-	'STATUS_CONFLICT'			=> 'Çakışan dosyaları değiştir', // Modified file producing conflicts
+	'STATUS_CONFLICT'			=> 'Uyuşmayan dosyaları değiştir', // Modified file producing conflicts
 	'STATUS_MODIFIED'			=> 'Değişmiş dosya',
 	'STATUS_NEW'				=> 'Yeni dosya',
 	'STATUS_NEW_CONFLICT'		=> 'Yeni dosya uyuşmazlığı',

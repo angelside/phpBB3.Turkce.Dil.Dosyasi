@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS'		=> 'Pano ayarları',
 	'ACP_BOTS'					=> 'Arama motoru botları',
 
-	'ACP_CAPTCHA'				=> 'CAPTCHA',
+	'ACP_CAPTCHA'				=> 'Doğrulama kodu',
 
 	'ACP_CAT_DATABASE'			=> 'Veritabanı',
 	'ACP_CAT_DOT_MODS'			=> '.MODs', // tercüme edilmesin
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'İmza',
 
 	'ACP_VC_SETTINGS'					=> 'Görsel doğrulama ayarları',
-	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA resim önizleme',
+	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Doğrulama kodu resmi önizleme',
 	'ACP_VERSION_CHECK'					=> 'phpBB3 sürüm denetimi',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Yönetici izinleri',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Forum yetkilisi izinleri',

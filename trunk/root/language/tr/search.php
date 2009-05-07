@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Kendi iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
 	
-'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Arama yapmak için çok fazla sayıda kelime tanımladınız. Lütfen %1$d kelimeden fazla yazmayınız.',
 	
 	'NO_KEYWORDS'			=> 'Aramak için en az bir kelime girmelisiniz. Her kelime en az %d harften oluşmalı ve %d karakteri aşmamalı.',
 	'NO_RECENT_SEARCHES'	=> 'Son zamanlarda arama yapılmadı.',

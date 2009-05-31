@@ -13,7 +13,7 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// SÜRÜM	: 0.0.72.a - 06 Mayıs 2009 - phpBB 3.0.5 RC1
+// SÜRÜM	: 0.0.73.a - 01 Haziran 2009 - phpBB 3.0.5
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 
 // "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
 // ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
-define('TR_LANG_VERSION', '0.0.72.a');
+define('TR_LANG_VERSION', '0.0.73.a');
 
 // DEVELOPERS PLEASE NOTE
 //

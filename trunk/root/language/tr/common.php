@@ -42,10 +42,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
-// ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
-define('TR_LANG_VERSION', '0.0.73.a');
-
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -63,6 +59,10 @@ define('TR_LANG_VERSION', '0.0.73.a');
 //
 
 $lang = array_merge($lang, array(
+	// "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
+	// ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
+	'TR_LANG_VERSION' => '0.0.73.a';
+
 	'TRANSLATION_INFO'	=> "phpBB3 Türkçe: <a href=\"http://www.phpbbturkiye.net\" title=\"phpBB3 geliştirme ve destek\" onclick=\"this.target='_blank'\" rel=\"external\">phpBB Türkiye</a>",
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'       => '|d M Y|', // 01 Mar 2007

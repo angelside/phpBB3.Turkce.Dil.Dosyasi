@@ -1,24 +1,15 @@
 <?php
-/*
-*
-* search_synonyms [Turkish]
-*
-* @package language
+/**
 * @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
+* @author Sevdin Filiz <angelside@users.sourceforge.net>
+* @copyright (c) 2009, Canver Software <http://www.canversoft.net>
 */
 
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
+// değiştirmeyin
+if (!defined('IN_PHPBB')) { exit; }
 
-// 
 // listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
 // http://www.phpbbturkiye.net/hata-raporlari-f93/
-//
 $synonyms = array(
 	'arasıra'			=> 'ara sıra',
 	'akşam üstü'		=> 'akşamüstü',

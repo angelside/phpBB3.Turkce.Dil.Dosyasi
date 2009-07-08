@@ -1,24 +1,15 @@
 <?php
-/*
-*
-* search_ignore_words [Turkish]
-*
-* @package language
+/**
 * @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
+* @author Sevdin Filiz <angelside@users.sourceforge.net>
+* @copyright (c) 2009, Canver Software <http://www.canversoft.net>
 */
 
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
+// değiştirmeyin
+if (!defined('IN_PHPBB')) { exit; }
 
-//
 // listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
 // http://www.phpbbturkiye.net/hata-raporlari-f93/
-//
 $words = array(
 	'ama',
 	'ancak',
@@ -159,3 +150,4 @@ $words = array(
 	'zaten',
 	'zaman',
 );
+?>

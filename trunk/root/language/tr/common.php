@@ -1,12 +1,8 @@
 <?php
-/* 
-* common [Turkish]
-*
-* @package language
+/**
 * @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-*
+* @author Sevdin Filiz <angelside@users.sourceforge.net>
+* @copyright (c) 2009, Canver Software <http://www.canversoft.net>
 */
 
 // -------------------------------------------------------------------------------------
@@ -25,22 +21,11 @@
 // phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim forumu
 // http://www.phpbbturkiye.net/hata-raporlari-f93/
 //
-// Kod geliştirme merkezi hata bildirmleri
-// http://code.canversoft.com/projects/show/phpbb3-turkce-dil
 // -------------------------------------------------------------------------------------
 
-/**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
-
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
+// değiştirmeyin
+if (!defined('IN_PHPBB')) { exit; }
+if (empty($lang) || !is_array($lang)) { $lang = array(); }
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -58,6 +43,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
+// dil değişkenleri
 $lang = array_merge($lang, array(
 	// "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
 	// ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html

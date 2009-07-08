@@ -1,41 +1,15 @@
 <?php
-/*
-*
-* ucp [Turkish]
-*
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
-
 /**
-* DO NOT CHANGE
+* @version $Id$
+* @author Sevdin Filiz <angelside@users.sourceforge.net>
+* @copyright (c) 2009, Canver Software <http://www.canversoft.net>
 */
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
+// değiştirmeyin
+if (!defined('IN_PHPBB')) { exit; }
+if (empty($lang) || !is_array($lang)) { $lang = array(); }
 
-// DEVELOPERS PLEASE NOTE
-//
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
-// Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
-// translators to re-order the output of data while ensuring it remains correct
-//
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
-// equally where a string contains only two placeholders which are used to wrap text
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-
-// Privacy policy and T&C
+// Gizlilik ilkeleri ve kullanım koşulları
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '“%1$s” (bu yazıda “biz”, “bize”, “bizim”, “%1$s”, “%2$s” olarak anılacak) kullanım hakkı için, takip eden şartların yasal bağlayıcılığını kabul etmelisiniz. Eğer yasal bağlayıcılığı olan bu şartların tümünü kabul etmiyorsanız lütfen “%1$s” mesaj panosuna erişmeyin ve/veya kullanmayın. Şartları herhangi bir zaman değiştirebilir ve sizi azami derecede bilgilendirebiliriz, ancak siz yasal bağlayıcılığı olan bu şartları düzenli olarak inceleyin, yapılan değişiklik ve güncellemeleri kabul ediyorsanız “%1$s” mesaj panosunu kullanmaya devam edin.<br />
 	<br />
@@ -56,7 +30,7 @@ $lang = array_merge($lang, array(
 	', //48. satırdaki opt-in opt-out hakkında bir fikrim olmadığı için olduğu gibi bıraktım.
 ));
 
-// Common language entries
+// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Hesabınız şimdi aktif edildi. Kayıt olduğunuz için teşekkürler',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Hesabınız şimdi aktif edildi.',

@@ -15,17 +15,13 @@
 //--------------------------------------------------------------------------------------
 // [ Hata bildirimi ]
 //
-// Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi 
-// lütfen bildiriniz.
+// Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
 //
 // phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim forumu
 // http://www.phpbbturkiye.net/hata-raporlari-f93/
 //
 // -------------------------------------------------------------------------------------
 
-// değiştirmeyin
-if (!defined('IN_PHPBB')) { exit; }
-if (empty($lang) || !is_array($lang)) { $lang = array(); }
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -43,12 +39,21 @@ if (empty($lang) || !is_array($lang)) { $lang = array(); }
 // ’ » “ ” …
 //
 
+// değiştirmeyin
+if (!defined('IN_PHPBB')) { exit; }
+if (empty($lang) || !is_array($lang)) { $lang = array(); }
+
+// "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
+// ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
+$lang = array_merge($lang, array(
+	'TR_VERSION' => array(
+		'LANG'	=> '0.0.73.a',
+		'PHPBB'	=> '3.0.5',
+	),
+));
+
 // dil değişkenleri
 $lang = array_merge($lang, array(
-	// "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
-	// ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
-	'TR_LANG_VERSION' => '0.0.73.a';
-
 	'TRANSLATION_INFO'	=> "phpBB3 Türkçe: <a href=\"http://www.phpbbturkiye.net\" title=\"phpBB3 geliştirme ve destek\" onclick=\"this.target='_blank'\" rel=\"external\">phpBB Türkiye</a>",
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'       => '|d M Y|', // 01 Mar 2007

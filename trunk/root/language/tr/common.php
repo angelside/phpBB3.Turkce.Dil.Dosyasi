@@ -9,7 +9,7 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// SÜRÜM	: 0.0.73.a - 01 Haziran 2009 - phpBB 3.0.5
+// SÜRÜM	: 0.0.74.a - 04 Eylül 2009 - phpBB 3.0.5
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------

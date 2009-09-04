@@ -1,0 +1,433 @@
+<!-- @version $Id$ //-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="tr" xml:lang="tr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="phpBB Türkiye - www.phpbbturkiye.net" />
+<meta name="copyright" content="Canver Software - www.canversoft.net" />
+<meta name="description" content="phpBB Türkiye - phpBB3 Türkçe Dil Dosyası, phpBB3 Türkçe Dil Dosyası - kullanım ve yükleme kılavuzu" />
+<meta name="keywords" content="phpbb, phpbb3, türkçe, dil dosyası, phpBB3 Türkçe Dil Dosyası, phpBB3 Türkçe Dil Paketi, phpBB Türkiye" />
+<title>phpBB Türkiye - phpBB3 Türkçe Dil Dosyası - yükleme ve kullanım kılavuzu</title>
+<style type="text/css" media="screen">
+<!--
+* html table, * html td, * html { font-size: 100%; }
+html { font-size: 100%; height: 100%; }
+body {
+	color		: #828282;
+	font		: normal 12px Verdana, Helvetica, Arial, sans-serif;
+	color		: #222;
+	background	: #dbd7d1;
+	margin		: 0;
+	line-height : 1.6em
+}
+#wrapper {
+	width		: 770px;
+	margin		: 0 auto;
+	background	: #fff;
+	padding		: 15px;
+	border-left	: 1px solid #6e7a83;
+	border-right: 1px solid #6e7a83;
+}
+h1 {
+	font-size: 20px;
+	background-color: #828d97;
+	border-bottom	: 1px solid #dbd7d1;
+	color			: #fff;
+	padding			: 24px;
+	margin			: -15px -15px 0 -15px;
+}
+h2 { color: #d21a4e; font-size: 15px;}
+h3 {
+	font-size		: 14px;
+	background-color: #e1e3e7;
+	color			: #666;
+	padding			: 5px 15px;
+	margin			: 0;
+	border-top		: 1px solid #ffffff; 
+	border-bottom	: 2px solid #8c99a3;
+}
+h4, p { padding-left: 10px; font-size: 12px;}
+p,ul,li { line-height:1.4em; }
+.note {
+	background	: #ebeadd;
+	margin		: 20px 0;
+	padding		: 10px;
+	border-top	: 2px solid #8c99a3;
+}
+a:link, a:active, a:visited { 
+	color				: #368AD2;
+	border-bottom-color	: #368ad2;
+}
+a:hover { 
+	background-color: #ecf3f7;
+	color			: #0d4473;
+}
+small, .small {
+	font-size	: 10px; 
+	font-weight	: bold;
+	font-family	: Arial, Helvetica, sans-serif;
+}
+.dir { color: #006400; }
+.file { color: #bc280e; }
+.greentext {
+	color		: #287302; 
+	background	: inherit;
+}
+.redtext {
+	color		: #d21a4e;
+	background	: inherit;
+}
+hr {
+	border				: 0px none;
+	background-color	: #6e7a83;
+	height				: 1px;
+/*	margin				: -15px -15px 0 -15px;*/
+}
+/* Code block */
+dl.codebox {
+	padding			: 3px;
+	background-color: #fff;
+	border			: 1px solid #d8d8d8;
+	font-size		: 1em;
+	background-color: #fff;
+	border-color	: #c9d2d8;
+	margin			: 0 0 0 10px;
+}
+dl.codebox dt {
+	text-transform		: uppercase;
+	border-bottom		: 1px solid #ccc;
+	margin-bottom		: 3px;
+	padding				: 0 0 0 5px;
+	font-size			: 0.8em;
+	font-weight			: bold;
+	display				: block;
+	border-bottom-color	: #ccc;
+}
+dl.codebox code {
+	overflow	: auto;
+	display		: block;
+	height		: auto;
+	max-height	: 200px;
+	white-space	: normal;
+	padding		: 2px 0 2px 0;
+	font		: 0.9em Monaco, "Andale Mono","Courier New", Courier, mono;
+	line-height	: 1.3em;
+	margin		: 2px 0 0 -36px;
+	color		: #2e8b57;
+}
+-->
+</style>
+<script type="text/javascript">
+// <![CDATA[
+function selectCode(a)
+{
+	// Get ID of code block
+	var e = a.parentNode.parentNode.getElementsByTagName('CODE')[0];
+	if (document.selection)
+	{
+		var r = document.body.createTextRange();
+		r.moveToElementText(e);
+		r.select();
+	}
+	else
+	{
+		var s = window.getSelection();
+		var r = document.createRange();
+		r.setStartBefore(e);
+		r.setEndAfter(e);
+		s.addRange(r);
+	}
+}
+// ]]>
+</script>
+</head>
+
+<body>
+
+<table align="center">
+<tr>
+	<td>
+
+		<div id="wrapper">
+			<center>
+				<h1>phpBB3 Türkçe Dil Dosyası</h1>
+				<h2>phpBB3 Türkçe Dil Dosyası Yükleme ve Kullanım Kılavuzu</h2>
+				Türkiye'nin phpBB topluluğu <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank"><strong>phpBB Türkiye</strong></a> tarafından phpBB3 için tercüme edilen ve geliştirilen <br />
+				<strong>phpBB3 Türkçe dil dosyası</strong>
+			</center>
+			<div class="note">Kurmadan ve sorularınızı iletmeden önce lütfen <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe dil dosyası</a> forumunu kontrol ediniz.</div>
+			
+			<!-- =============================================================================================== -->
+
+			<!-- [+] sürüm bilgileri //-->  
+			<h3>Sürüm bilgileri</h3>
+			<p>
+				<table border="0" cellspacing="2" cellpadding="0">
+				<tr>
+					<td style="padding-left:10px;"><strong>Dil dosyası</strong></td>
+					<td>&nbsp;:&nbsp;</td>
+					<td>phpBB3 Türkçe Dil Dosyası</td>
+				</tr>
+				<tr>
+					<td style="padding-left:10px;"><strong>Sürüm</strong></td>
+					<td>&nbsp;:&nbsp;</td>
+					<td>0.0.71.a &nbsp; 13 Aralık 2008 &nbsp; ( phpBB 3.0.4 ) &nbsp; Unicode (UTF-8)</td>
+				</tr>
+				<tr>
+					<td style="padding-left:10px;" valign="top"><strong>Tercüme & Telif</strong></td>
+					<td valign="top">&nbsp;:&nbsp;</td>
+					<td>© <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a> - www.phpbbturkiye.net -  
+					© <a href="http://www.canversoft.net" title="Canver Software Internet ve yazılım hizmetleri" target="_blank">Canver Software</a> - www.canversoft.net</td>
+				</tr>
+				<tr>
+					<td style="padding-left:10px;"><strong>Lisans</strong></td>
+					<td>&nbsp;:&nbsp;</td>
+					<td><a href="http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html" title="Genel Kamu Lisansı" target="_blank">Genel Kamu Lisansı (GPL)</a></td>
+				</tr>
+				</table><br />
+			</p>
+			<!-- [-] sürüm bilgileri //-->
+
+			<!-- =============================================================================================== -->
+
+			<!-- [+] paket hakkında //-->
+			<h3>Dil dosyası hakkında</h3>
+			<p>
+				<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td valign="top">
+						<h4>phpBB3 Türkçe dil dosyası genel içeriği</h4>
+						<p>
+							<ul type="square" class="ul2">
+								<li>phpBB3 Türkçe dil dosyaları &nbsp; <small>( <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/phpbb3-turkce-dil-dosyasi-t72.html" target="_blank">bilgi</a> )</small></li>
+								<li>Kurulum lisansı "Türkçe GPL lisans metni"</li>				
+							</ul>
+						</p>
+					</td>
+					<td width="15"></td>
+					<td valign="top">
+						<h4>phpBB3 Türkçe dil dosyası grafik içeriği</h4>
+						<p>
+							<ul type="square" class="ul2">
+								<li>prosilver Türkçe butonlar &nbsp; <small>( <a href="http://www.phpbbturkiye.net/phpbb-grafik-f60/prosilver-turkce-butonlar-t95.html" target="_blank">bilgi</a> )</small></li>
+								<li>subsilver2 Türkçe butonlar &nbsp; <small>( <a href="http://www.phpbbturkiye.net/phpbb-grafik-f60/subsilver2-turkce-butonlar-t32.html" target="_blank">bilgi</a> )</small></li>
+							</ul>
+						</p>
+					</td>
+				</tr>
+				</table>
+			</p>
+			
+			<h4>Paket hakkında</h4>	
+			<p>
+				<ul type="square">
+					<li>Bu paket; phpBB ve işlevselliği konusunda tecrübeli bir oluşum olan <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a> grubu tarafından phpBB3 için tercüme edilen ve geliştirilen, yüksek kalite ve işlevsellik amaçlanan ve standart olarak UTF-8 formatında olan "<strong><a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dil Dosyası</a></strong>" 'dır.</li>
+					<li>Tercümede; görünüm, işlev, uyumluluk gibi bazı kriterlere göre sözlük tercümesinden farklı, daha uygun kelime ve cümleler kullanılmış, bazı kelimeler üzerinde günlerce kafa patlatılmış, anlamı tamamlayıcı değişiklikler yapılmıştır.</li>
+					<li>Dosyalar, yeni phpBB3 sürümlerine, yamalara, hata ve geri bildirimlere göre güncellenmeye devam edilecektir.</li>
+					<li>phpBB3 Türkçe Dil Dosyası'nın son güncel sürümünü <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a> sitemizin <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dil Dosyası</a> forumudan, eğer yüklediyseniz "<a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/dil-dosyasi-surum-denetimi-modulu-t14.html" target="_blank">Dil dosyası sürüm denetimi</a>" modülünden kontrol edebilirsiniz.</li>
+				</ul>
+			</p>
+			<!-- [-] paket hakkında //-->
+
+			<!-- =============================================================================================== -->
+
+			<!-- [+] kullanım & bulundurma koşulları //-->
+			<h3>Kullanım, bulundurma, beğişiklik koşulları</h3>
+
+			<p>"phpBB Türkiye" grubu tarafından tercümesi yapılan, geliştirilen ve dağıtıma sunulan bu dil dosyasını kullanabilmek için <a href="http://www.phpbbturkiye.net/sayfa-gpl-lisansi.html" target="_blank" rel="nofollow">GPL</a> lisansınında da yer alan koşullara ve özellikle aşağıdaki koşullara uymanız gerekmektedir. Dil dosyasını herhangi bir şekilde kullanmanız bu koşulları kabul ettiğiniz anlamına gelir.<br />
+
+			<h4>1. Kullanım ve değişiklik yapma ile ilgili koşullar</h4>
+			<ul type="square">
+				<li>Bizim telif bilgilerimizi silemez, kaldıramaz, müdahale edemezsiniz.</li>
+				<li>Kullandığınız temada tercüme telif kodu silinmiş ise, <span class="file">overall_footer.html</span> 
+				dosyasına şu kodu eklemelisini: <strong>{TRANSLATION_INFO}</strong></li>
+				<li>Telif bilgileri dışında istediğiniz değişiklik ve eklemeleri yapabilirsiniz. Ancak bunları sadece kendi sitenizde kullanabilir, dağıtamazsınız.</li>
+			</ul>
+
+			<h4>2. Bulundurma ile ilgili koşullar</h4>
+			<ul type="square">
+				<li>Tarafımızdan, e-posta yolu ile izin verilmediği sürece "phpBB3 Türkçe Dil Dosyası" 'nın dağıtımı herhangi bir siteden/alandan yapılamaz.</li>
+				<li>Taban olarak tarafımızca yapılan dil dosyalarını kullanarak oluşturabileceğiniz dil dosyalarını e-posta yolu ile izin verilmediği sürece yayınlayamaz, sadece kendiniz için kullanabilirsiniz.</li>
+			</ul>
+
+			<h4>3. Gelişmiş phpBB/premod yazarlarına</h4>
+			<ul type="square">
+				<li>E-posta yolu ile izin verilmediği sürece, gelişmiş phpBB sistemlerinde telif bilgilerimize müdahale edemezsiniz.</li>
+				<li>Bu kılavuzu phpBB sisteminiz ile beraber dağıtarak, kullanıcıları "<strong>Kullanım & Bulundurma Koşulları</strong>"ndan haberdar etmelisiniz.</li>
+			</ul>
+			</p>
+			<!-- [-] kullanım & bulundurma koşulları //-->
+
+			<!-- =============================================================================================== -->
+
+			<!-- [+] dil dosyası kurulumu //-->
+			<h3>Dil dosyası kurulumu</h3>
+
+			<p><strong>NOT:</strong> phpBB3'ü yeni kuruyorsanız 1. adımı gerçekleştirin ve kurulum ekranında "<strong>Türkçe [TR]</strong>" dil seçeneğini seçip kuruluma devam edin.</p>
+
+			<h4>1. Dosyaları kopyalayın</h4>
+			<p>Sıkıştırılmış olan <span class="redtext">phpbb3.lang_turkish</span> paketini açın ve <span class="dir">root/</span> dizini içerisindeki tüm dizinleri kullanacağınız phpBB3'ün dizinine (index.php yanına) kopyalayın/gönderin, işletim sisteminizin veya FTP yazılımınızın soracağı "<strong>üzerine yazılsın mı</strong>" gibi soruları "<strong>evet</strong>" diyerek onaylayın.</p>
+
+			<h4>2. Türkçe dil dosyasını sisteme yükleyin</h4>
+			<p>Panoya yönetici olarak oturum açın ve<!--sayfa altındaki "<strong>Administration Control Panel</strong>" bağını kullanarak//--> yönetim paneline giriş yapın. "<strong>SYSTEM</strong>" sekmesi altında bulunan "<strong>GENERAL TASKS</strong>" menüsündeki "<strong>Language packs</strong>" seçeneğine tıklayın ve "<strong>Uninstalled language packs</strong>" başlığı altındaki "<strong>Turkish [TR]</strong>" yazısının karşısındaki "<strong>Install</strong>" bağına tıklayarak Türkçe dil dosyasını yükleyin. 
+			<span class="greentext">Türkçe dil dosyası sisteme yüklendi ve kullanıma hazırdır.</span></p>
+
+			<h4>3. Varsayılan pano dilini değiştirin</h4>
+			<p>Yönetim panelindeki "<strong>GENERAL</strong>" sekmesine geçin, "<strong>BOARD CONFIGURATION</strong>" menüsündeki "<strong>Board settings</strong>" seçeneğine tıklayın ve "<strong>Default language:</strong>" yazısının karşısındaki kutudan "<strong>Türkçe [TR]</strong>" yi seçin, sayfa altındaki "<strong>Submit</strong>" butonuna tıklayın. 
+			<span class="greentext">Panonuzun varsayılan dili Türkçe olmuştur.</span></p>
+
+			<h4>4. Türkçe butonları tanıtın</h4>
+			<p>Yönetim panelindeki "<strong>STYLES</strong>" sekmesine geçin. "<strong>Style components</strong>" menüsü altındaki "<strong>Imagesets</strong>" bağına tıklayın ve açılan sayfada Türkçe buton eklediğiniz tüm temaların karşısındaki "<strong>Refresh</strong>" bağına tıklayın. Çıkan doğrulama sayfalarında "<strong>Yes</strong>" butonuna tıklayın.
+			<span class="greentext">Türkçe butonlar sisteme tanıtılmıştır.</span></p>
+
+			<h4>5. Siz de Türkçe'ye geçin</h4>
+			<p>Eğer panoyu Türkçe kullanmak istiyorsanız, pano anasayfasındaki "<strong>User Control Panel</strong>" bağını kullanarak profil ayarlarınıza ulaşın. "<strong>Forum preferences</strong>" bağına tıklayın ve "<strong>My language:</strong>" yazısının karşısından "<strong>Türkçe [TR]</strong>" 'yi seçerek en alttaki "<strong>Submit"</strong> butonuna tıklayın. 
+			<span class="greentext">Yönlendirme işleminden sonra pano dili sizin için Türkçe olacaktır.</span></p>
+			<!-- [-] dil dosyası kurulumu //-->
+
+			<!-- =============================================================================================== -->
+
+			<!-- [+] güncelleme //-->
+			<!--
+			<h3>Güncelleme</h3>
+
+			<h4>Tam güncelleme</h4>
+			<p>Tam güncelleme bilgileri</p>
+
+			<h4>Yama yapma</h4>
+			<p>Yama yapma bilgileri</p>
+			//-->
+			<!-- [-] güncelleme //-->
+
+			<!-- =============================================================================================== -->
+
+			<!-- [+] geliştirme //-->
+			<h3>Geliştirme, hata bildirme</h3>
+
+			<h4>SVN sistemi</h4>
+			<p>Tercüme projesinde kullanılan SVN sisteminden, dil dosyalarında yapılan değişiklikleri takip edebilir, değişikliklerin e-posta adresinize gelmesini sağlayabilir, henüz sürüm olarak yayınlanmamış güncel dosyaları kendi bilgisayarınıza indirebilirsiniz.</p>
+
+			<ul type="square">
+				<li><a href="https://sourceforge.net/svn/?group_id=189800" target="_blank">SVN alanımıza bağlantı bilgileri</a></li>
+				<li><a href="http://phpbbturkiye.svn.sourceforge.net/viewvc/phpbbturkiye/phpbb3.lang_turkish/" target="_blank">Web tabanlı SVN deposu izleyicisi</a></li>
+			</ul>
+
+
+			<h4>SVN sistemi - e-posta listesi</h4>
+			<p><a href="https://lists.sourceforge.net/lists/listinfo/phpbbturkiye-update" target="_blank">E-posta listesi</a> sayesinde, yapılan tüm değişiklikler liste üyelerinin e-posta adreslerine gönderilir. Ayrıca listeye eklenen tüm iletiler bir de <a href="http://sourceforge.net/mailarchive/forum.php?forum=phpbbturkiye-update" target="_blank">arşiv</a> alanında tutulur. Değişiklikleri izlemek isteyenler, e-posta listesi'ne kayıt olabilir.</p>
+
+			<h4>Hata ve geri bildirim</h4>
+			<p>Gözden kaçan hataları, önerileri ve yorumlarınızı "<a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a>" sitemizdeki <a href="http://www.phpbbturkiye.net/phpbb3-turkce-dil-dosyasi-f84/" target="_blank">phpBB3 Türkçe Dosyası</a> forumuna bildirebilirsiniz.</p>
+			<!-- [-] geliştirme //-->
+
+			<!-- =============================================================================================== -->
+
+			<!-- [+] tercüme grubu & katkıda bulunanlar //-->
+			<h3>Tercüme grubu & katkıda bulunanlar</h3>
+
+			<table border="0">
+			<tr>
+				<td valign="top">
+					<h4>Tercüme grubu</h4>
+					<p>
+						<ul type="square" class="ul2">
+							<li><strong>Bülent Küçükaslan</strong> - <a  href="http://www.engelliler.biz" target="_blank"><small>engelliler.biz platformu</small></a></li>
+							<li><strong>Dinçer Aydiç</strong> - <a  href="http://www.iolpliler.net" target="_blank"><small>iölp egitim ve paylaşım</small></a></li>
+							<li><strong>Erdem Arslan</strong> - <a  href="http://www.dostlukbirbaska.com" target="_blank"><small>dostluk bir başka</small></a></li>
+							<li><strong>Erdoğan Şimşek</strong> - <a  href="http://www.eglenceyeri.net" target="_blank"><small>eğlence yeri</small></a></li>
+							<li><strong>Hamza Apaydın</strong> - <a  href="#" target="_blank"><small>#</small></a></li>
+							<li><strong>Sabri Ünal</strong> - <a  href="http://www.yakusha.net" target="_blank"><small>Yakusha</small></a></li>
+							<li><strong>Selman Solak</strong> - <a  href="http://www.buzlas.net" target="_blank"><small>BuzLaş</small></a></li>
+							<li><strong>Sevdin Filiz</strong> - <a  href="http://www.canversoft.net" target="_blank"><small>Canver Software</small></a></li>
+							<li><strong>Utku Filiz</strong> - <a  href="http://www.bizdenbiri.com" target="_blank"><small>bizdenbiri olmak ister misin?</small></a></li>
+							<li><strong>Zafer Sarışahin</strong> - <a  href="http://www.simuzer.com" target="_blank"><small>sımsıcak bir sevgi edebiyatı</small></a></li>
+						</ul>
+					</p>
+				</td>
+				<td width="10"></td>
+				<td valign="top">
+					<h4>Katkıda bulunanlar</h4>
+					<p>
+						<ul type="square" class="ul2">
+							<li><strong>Emrah Bayıldıran</strong><small> / İngilizce Yeminli Tercüman - <a  href="http://www.tercumen.net/" target="_blank">Tercümanlık Hizmetleri</a></small></li>
+							<li><strong>Kaan Başkal</strong> - <a  href="http://www.melankoliyiz.biz" target="_blank"><small>Melankoli Forumu</small></a></li>
+							<li><strong>Hilmi Erdem Keren</strong> - <a  href="http://www.why-islam.net" target="_blank"><small>Why-Islam</small></a></li>
+						</ul>
+					</p>
+				</td>
+			</tr>
+			</table>
+			<!-- [-] tercüme ekibi & katkıda bulunanlar //-->
+			
+			<!-- =============================================================================================== -->
+			
+			<!-- [+] sürüm geçmişi //-->
+			<h3>Sürüm geçmişi</h3>
+			<p>Sürüm geçmişinin aşırı yer kaplamaması için ara sürüm ve bazı SVN sürümleri atlanmış, sadece son kullanıcıya sunulan ana dağıtımlara yer verilmiştir.</p> 
+			<p>
+				<ul type="square">
+					<li><strong>v. 0.0.71.a</strong> &nbsp;&nbsp;( 13.12.2008 ) - <strong>phpBB 3.0.4</strong> güncellemesi (3.0.4 RC1 ile aynı)</li>
+					<li><strong>v. 0.0.70.a</strong> &nbsp;&nbsp;( 10.12.2008 ) - <strong>phpBB 3.0.4-RC1</strong> güncellemesi</li>
+					<li><strong>v. 0.0.68.a</strong> &nbsp;&nbsp;( 12.11.2008 ) - <strong>phpBB 3.0.3</strong> güncellemesi</li>
+					<li><strong>v. 0.0.66.a</strong> &nbsp;&nbsp;( 03.11.2008 ) - <strong>phpBB 3.0.3-RC1</strong> güncellemesi</li>
+					<li><strong>v. 0.0.65.a</strong> &nbsp;&nbsp;( 03.11.2008 ) - <strong>phpBB 3.0.2</strong>, düzeltme ve iyileştirmeler</li>
+					<li><strong>v. 0.0.64.a</strong> &nbsp;&nbsp;( 28.08.2008 ) - <strong>phpBB 3.0.2</strong>, düzeltme ve iyileştirmeler</li>
+					<li><strong>v. 0.0.63.a</strong> &nbsp;&nbsp;( 11.07.2008 ) - <strong>phpBB 3.0.2</strong> güncellemesi</li>
+					<li><strong>v. 0.0.59.a</strong> &nbsp;&nbsp;( 07.04.2008 ) - <strong>phpBB 3.0.1</strong> güncellemesi</li>
+					<li><strong>v. 0.0.58.a</strong> &nbsp;&nbsp;( 26.03.2008 ) - <strong>phpBB 3.0.1-RC1</strong> güncellemesi</li>
+					<li><strong>v. 0.0.56.a</strong> &nbsp;&nbsp;( 13.12.2007 ) - <strong>phpBB 3.0.0</strong> güncellemesi</li>
+					<li><strong>v. 0.0.54.a</strong> &nbsp;&nbsp;( 01.11.2007 ) - <strong>phpBB 3.0-RC8</strong> güncellemesi</li>
+					<li><strong>v. 0.0.51.a</strong> &nbsp;&nbsp;( 15.09.2007 ) - <strong>phpBB 3.0-RC7</strong> güncellemesi</li>
+					<li><strong>v. 0.0.50.a</strong> &nbsp;&nbsp;( 13.09.2007 ) - <strong>phpBB 3.0-RC6</strong> güncellemesi</li>
+					<li><strong>v. 0.0.46.a</strong> &nbsp;&nbsp;( 28.08.2007 ) - <strong>phpBB 3.0-RC5</strong> güncellemesi</li>
+					<li><strong>v. 0.0.44.a</strong> &nbsp;&nbsp;( 28.07.2007 ) - <strong>phpBB 3.0-RC4</strong> güncellemesi</li>
+					<li><strong>v. 0.0.41.a</strong> &nbsp;&nbsp;( 08.07.2007 ) - <strong>phpBB 3.0-RC3</strong> güncellemesi</li>
+					<li><strong>v. 0.0.40.a</strong> &nbsp;&nbsp;( 25.06.2007 ) - <strong>phpBB 3.0-RC2</strong> güncellemes</li>
+					<li><strong>v. 0.0.38.a</strong> &nbsp;&nbsp;( 26.04.2007 ) - <strong>phpBB 3.0-RC1</strong> güncellemesi</li>
+					<li><strong>v. 0.0.23.a</strong> &nbsp;&nbsp;( 30.01.2006 ) - <strong>phpBB 3.0-B5</strong> güncellemesi</li>
+					<li><strong>v. 0.0.16.a</strong> &nbsp;&nbsp;( 29.11.2006 ) - <strong>phpBB 3.0-B4</strong> güncellemesi</li>
+					<li><strong>v. 0.0.14.a</strong> &nbsp;&nbsp;( 12.11.2006 ) - <strong>phpBB 3.0-B3</strong> güncellemesi</li>
+					<li><strong>v. 0.0.1.a</strong> &nbsp;&nbsp;&nbsp;&nbsp;( 21.09.2006 ) - <strong>phpBB 3.0-B2</strong> güncellemesi</li>
+					<li><strong>v. 0.0.0.a</strong> &nbsp;&nbsp;&nbsp;&nbsp;( 19.06.2006 ) - <strong>phpBB 3.0-B1</strong> güncellemesi</li>
+
+					<!--
+					<li>
+						<strong>v. 0.0.23.a</strong> &nbsp;&nbsp;( 21.09.2006 ) - <strong>phpBB 3.0.B2</strong> güncellemesi
+						<ul type="square">
+							<li><span class="file">common.php</span></li>
+							<ul type="square">
+								<li><strong>xxx</strong> bilgisi değiştirildi</li>
+								<li><strong>xxx</strong> bilgisi değiştirildi</li>
+							</ul>
+						</ul>
+						<ul type="square">
+							<li><span class="file">common.php</span></li>
+							<ul type="square">
+								<li><strong>xxx</strong> bilgisi değiştirildi</li>
+								<li><strong>xxx</strong> bilgisi değiştirildi</li>
+							</ul>
+						</ul>
+					</li>
+					-->	
+				</ul>
+			</p>
+			<!-- [-] sürüm geçmişi //-->
+
+			<!-- =============================================================================================== -->
+
+			
+			<div class="small" style="padding-bottom:10px;"><hr />
+				<span style="float:left;"></span>
+				<span style="float:right;">&copy; Copyright, <a href="http://www.phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme sitesi" target="_blank">phpBB Türkiye</a> - phpBB3 Türkçe destek ve geliştirme sitesi</span>
+			</div>
+
+		</div>
+
+
+	</td>
+</tr>
+</table>
+
+
+</body>
+</html>

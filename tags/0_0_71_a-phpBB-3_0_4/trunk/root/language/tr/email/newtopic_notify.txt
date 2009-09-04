@@ -1,0 +1,14 @@
+Subject: {SITENAME} - "{FORUM_NAME}" forumuna yeni bir konu açıldı.
+
+Sayın {USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosunda yer alan "{FORUM_NAME}" forumunu izlemeye aldığınız için sistem tarafından otomatik olarak gönderilmiştir.
+
+İzlemeye aldığınız forum: {U_FORUM}
+Foruma açılan yeni konu: {TOPIC_TITLE}
+
+Eğer forum içeriğini daha fazla izlemek istemiyorsanız, konu sayfasındaki "Forum izlemeyi durdur" bağlantısını veya asağıdaki bağlantıyı kullanabilirsiniz:
+
+Bu forumu izlemeyi durdur: {U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

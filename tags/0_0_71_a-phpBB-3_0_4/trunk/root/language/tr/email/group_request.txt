@@ -1,0 +1,10 @@
+Subject: {SITENAME} - "{GROUP_NAME}" grubuna dahil olmak isteyen bir üye var
+
+Sayın {USERNAME},
+
+{SITENAME} mesaj panosunda, yöneticisi olduğunuz "{GROUP_NAME}" grubuna, "{REQUEST_USERNAME}" isimli üye dahil olmak istiyor. Başvuru hakkında işlem yapmak için lütfen aşağıdaki bağlantıyı ziyaret ediniz.
+
+İlgili grup: {GROUP_NAME}
+İşlem sayfası: {U_PENDING}
+
+{EMAIL_SIG}

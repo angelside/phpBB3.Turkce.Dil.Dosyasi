@@ -1,0 +1,15 @@
+
+Sayın {TO_USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosuna "{FROM_USERNAME}" kullanıcı adıyla üye olan kişi tarafından, {SITENAME} sistemi kullanılarak gönderilmiştir. Dikkatinize sunar, güzel günler dileriz.
+
+{FROM_USERNAME} tarafından size gönderilen mesaj:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+İlginizi çekebileceği düşünülen bu konu herhangi bir yetkili tarafından görülmemiş ve bu mesajın size gönderilmesi sırasında herhangi bir onay aşamasına dahil edilmemiştir. Eğer bu mesajdan rahatsız olduysanız, şikayetlerinizi {BOARD_EMAIL} adresine (size bu mesajı gönderen üyemizin kullanıcı adı ve e-posta adresini de belirtip) iletebilirsiniz.
+
+{EMAIL_SIG}

@@ -1,0 +1,43 @@
+﻿Subject: "{SITENAME}" - hoşgeldiniz
+
+{WELCOME_MSG}
+
+COPPA işleyişine göre, hesabınız şu anda pasif.
+
+Lütfen bu iletiyi yazıcınızdan çıkarın, tüm boş alanlar doldurun, ebeveynlerinize onaylatın ve aşağıdaki faksa gönderin:
+
+{FAX_INFO}
+
+veya aşağıdaki e-posta adresine gönderin:
+
+{MAIL_INFO}
+
+-------------------------- BURADAN KESİNİZ --------------------------
+"{SITENAME}" - {U_BOARD} katılma izni
+
+Kullanıcı adı: {USERNAME}
+E-posta: {EMAIL_ADDRESS}
+ 
+ÇOCUĞUM TARAFINDAN SAĞLANAN BİLGİYİ İNCELEDİM VE BUNUNLA BİRLİKTE, "{SITENAME}" ADRESİNE BU BİLGİYİ TUTMA İZNİ VERİYORUM.
+BU BİLGİNİN HER ZAMAN BİR ŞİFRE GİREREK DEĞİŞTİRİLEBİLECEĞİNİ ANLADIM.
+BU BİLGİNİN "{SITENAME}" ADRESİNDEN SİLİNMESİNİ HERAN İSTEYEBİLEEĞİMİ ANADIM.
+
+
+Aile veya sorumulunun 
+
+Adı Soyadı: _____________________
+
+İmza      : _____________________ 
+
+Tarih     : _____________________
+
+-------------------------- BURADAN KESİNİZ --------------------------
+
+
+Bu form yöneticiler tarafından faks yada normal posta yolu ile alındıktan sonra, hesabınız aktif hâle getirilecektir.
+
+Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
+
+Kayıt olduğunuz için teşekkürler.
+
+{EMAIL_SIG}

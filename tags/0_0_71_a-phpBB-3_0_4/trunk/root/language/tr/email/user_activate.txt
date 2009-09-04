@@ -1,0 +1,9 @@
+Subject: {SITENAME} - üyeliğinizi tekrar aktif etmelisiniz
+
+Sayın {USERNAME},
+
+Üyelik bilgilerinizde gerçekleştirdiğiniz değişikliklerin güncellenebilmesi ve üyeliğinizin yeniden kullanılabilir hale gelmesi için lütfen aşağıdaki bağlantıya tıklayın.
+
+Üyelik aktivasyonu: {U_ACTIVATE}
+
+{EMAIL_SIG}

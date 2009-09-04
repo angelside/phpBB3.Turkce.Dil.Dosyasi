@@ -1,0 +1,13 @@
+Subject: {SITENAME} - lütfen üyelik başvurunuzu onaylayın
+
+{WELCOME_MSG}
+
+Kullanıcı adı {USERNAME} olan hesabınızı kullanılabilir hale getirmek için aşağıdaki bağlantıyı kullanabilirsiniz.
+
+Üyelik aktivasyonu: {U_ACTIVATE}
+
+Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
+
+Bu e-postayı saklamanızı öneririz. Zira üyelik bilgilerinizi unutmanız halinde kullanabilirsiniz.
+
+{EMAIL_SIG}

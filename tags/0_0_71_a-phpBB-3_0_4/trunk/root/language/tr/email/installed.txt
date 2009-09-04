@@ -1,0 +1,19 @@
+Subject: phpBB3 yazılımı kuruldu
+
+Tebrikler,
+
+phpBB3 yazılımı sunucunuza sorunsuzca kuruldu.
+
+Bu e-posta kurulum ve panoya giriş için önemli bilgiler içerir. Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
+
+Kullanıcı adı: {USERNAME}
+Parola: {PASSWORD}
+
+Pano adresi: {U_BOARD}
+
+
+Eğer bir sorun olduğunu düşünüyorsanız, phpBB kurulumu dahil pek çok konuda phpBB Türkiye destek sitesi olan http://www.phpbbturkiye.net/ adresinden yardım alabilirsiniz.
+
+Yazılım ve panonuzu güncel ve güvenli tutmak için, http://www.phpbbturkiye.net/ haber ve duyurularını sıkça takip etmeniz önerilir.
+
+{EMAIL_SIG}

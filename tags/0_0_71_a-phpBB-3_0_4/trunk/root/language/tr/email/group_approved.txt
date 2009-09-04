@@ -1,0 +1,8 @@
+Subject: {SITENAME} - "{GROUP_NAME}" grubu için başvurunuz onaylanmıştır
+
+Bu e-posta, {SITENAME} mesaj panosunda yer alan bir gruba dahil olma başvurunuzun onaylandığını haber vermek amacıyla sistem tarafından otomatik olarak gönderilmiştir.
+
+Dahil edildiğiniz grup: {GROUP_NAME}
+Grup bilgileri: {U_GROUP}
+
+{EMAIL_SIG}

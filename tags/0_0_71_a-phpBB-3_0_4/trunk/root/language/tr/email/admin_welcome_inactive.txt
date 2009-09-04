@@ -1,0 +1,18 @@
+Subject: "{SITENAME}" hoşgeldiniz
+
+{WELCOME_MSG}
+
+Kullanıcı bilgileriniz aşağıdaki gibidir:
+
+Kullanıcı adınız: {USERNAME}
+Parolanız: {PASSWORD}
+
+Pano adresi: {U_BOARD}
+
+Halen kullanılamaz/pasif durumda olan üyelik hesabınız kısa süre içinde pano yöneticisi tarafından kullanıma açılacak ve bu aktifleştirme yeni bir e-posta ile size bildirilecektir.
+
+Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
+
+Bizimle olduğunuz için teşekkür ederiz.
+
+{EMAIL_SIG}

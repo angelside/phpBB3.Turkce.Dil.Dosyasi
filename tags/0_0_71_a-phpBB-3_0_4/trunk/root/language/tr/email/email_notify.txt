@@ -1,0 +1,13 @@
+Subject: {TO_USERNAME}, {SITENAME} panosunda ilginizi çekebilecek bir bilgi var
+
+Sayın {TO_USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosuna "{FROM_USERNAME}" kullanıcı adıyla üye olan kişi tarafından, aşağıda bilgileri verilen konunun ilginizi çekebileceği düşüncesiyle size gönderilmiştir. 
+
+Dikkatinize sunar, güzel günler dileriz.
+
+Konu başlığı: {TOPIC_NAME}
+Konuyla ilgili detaylar: {U_TOPIC}
+{FROM_USERNAME} tarafından özel not: {MESSAGE} 
+
+İlginizi çekebileceği düşünülen bu konu herhangi bir yetkili tarafından görülmemiş ve bu mesajın size gönderilmesi sırasında herhangi bir onay aşamasına dahil edilmemiştir. Eğer bu mesajdan rahatsız olduysanız, şikayetlerinizi {BOARD_EMAIL} adresine (size bu mesajı gönderen üyemizin kullanıcı adı ve e-posta adresini de belirtip) iletebilirsiniz.

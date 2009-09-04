@@ -1,0 +1,16 @@
+Subject: {SITENAME} - izlediğiniz "{FORUM_NAME}" forumuna yeni ileti(ler) yazıldı
+
+Sayın {USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosunda abone olduğunuz "{FORUM_NAME}" forumuna yeni ileti(ler) yazıldığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+
+Abone olduğunuz forum: {FORUM_NAME}
+Yeni ileti(ler): {U_NEWEST_POST}
+İletilerin bulunuğu konu: {U_TOPIC}
+İletilerin bulunuğu forum: {U_FORUM}
+
+Eğer forum içeriğine aboneliğinizi durdurmak istiyorsanız, konu sayfasındaki "Forum aboneliğini kaldır" bağlantısını veya aşağıdaki bağlantıyı kullanabilirsiniz:
+
+Aboneliği kaldır: {U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

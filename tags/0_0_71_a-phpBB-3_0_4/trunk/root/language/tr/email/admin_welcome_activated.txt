@@ -1,0 +1,9 @@
+Subject: {SITENAME} - hesabınız kullanıma açıldı
+
+Sayın {USERNAME},
+
+Bu e-posta, {SITENAME} mesaj panosunda yer alan hesabınızın etkinleştirilerek kullanıma açıldığını haber vermek amacıyla sistem tarafından otomatik olarak gönderilmiştir. Daha önce belirlediğiniz kullanıcı adı ve parolanızla oturum açabilirsiniz.
+
+Bizimle olduğunuz için teşekkür ederiz.
+
+{EMAIL_SIG}

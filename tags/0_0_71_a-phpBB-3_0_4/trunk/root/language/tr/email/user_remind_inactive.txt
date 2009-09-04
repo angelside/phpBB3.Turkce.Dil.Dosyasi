@@ -1,0 +1,11 @@
+Subject: {SITENAME} - üyelik başvurunuzu tamamlamamışsınız
+
+Sayın {USERNAME},
+
+{REGISTER_DATE} tarihinde {SITENAME} sitesine gerçekleştirilen üyelik başvurunuz hala tamamlanmamış. Üyeliğinizi kullanılabilir hale getirmek için aşağıdaki bağlantıyı kullanabilirsiniz.
+
+Üyelik aktivasyonu: {U_ACTIVATE}
+
+İlginiz için teşekkür eder, güzel günler dileriz.
+
+{EMAIL_SIG}

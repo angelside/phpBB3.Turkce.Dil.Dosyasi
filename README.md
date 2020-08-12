@@ -2,11 +2,11 @@
 
 [![Sürüm][release-img]][release-url] [![Lisans][license-img]][license-url]
 
-> ### Bu proje terk edilmiştir, artık güncellenmeyecektir.
+> ### ⚠️ Bu proje terk edilmiştir, artık güncellenmeyecektir. 
+
 
 > "[phpBB Türkiye](http://phpbbturkiye.net)" tarafından phpBB 3.0.x sürümleri için tercüme edilen ve geliştirilen phpBB Türkçe dil dosyalarıdır.
-
-> Son phpBB 3.0 sürümü olan phpBB 3.0.14 ile uyumludur. **phpBB 3.1 ve phpBB 3.2 uyumlu değildir**.
+Son phpBB 3.0 sürümü olan phpBB 3.0.14 ile uyumludur. **phpBB 3.1 ve phpBB 3.2 uyumlu değildir**.
 
 ### İndirme sayfası
 
